@@ -12,11 +12,11 @@ import model.Veiculo;
 
 public class LocacaoController {
 	public static void main(String[] args) {
-		Locacao locacao_1= new Locacao(1, new GregorianCalendar(2021, 2, 10, 10, 00), null, new GregorianCalendar(2021, 2, 17, 18, 00), null, 10000, 0.00, 180.00, true);;
-		Locacao locacao_2= new Locacao(2, new GregorianCalendar(2021, 2, 10, 10, 00), null, new GregorianCalendar(2021, 2, 17, 18, 00), null, 10000, 0.00, 10.00, true);;
-		Locacao locacao_3= new Locacao(3, new GregorianCalendar(2021, 2, 10, 10, 00), null, new GregorianCalendar(2021, 2, 17, 18, 00), null, 10000, 0.00, 190.00, true);;
-		Locacao locacao_4= new Locacao(4, new GregorianCalendar(2021, 2, 10, 10, 00), null, new GregorianCalendar(2021, 2, 17, 18, 00), null, 10000, 0.00, 20.00, true);;
-		Locacao locacao_5= new Locacao(5, new GregorianCalendar(2021, 2, 10, 10, 00), null, new GregorianCalendar(2021, 2, 17, 18, 00), null, 10000, 0.00, 100.00, true);;
+		Locacao locacao_1= new Locacao(1, new GregorianCalendar(2021, 2, 10, 10, 00), new GregorianCalendar(2021, 2, 17, 18, 00), 10000, 0.00, 180.00, true);
+		Locacao locacao_2= new Locacao(2, new GregorianCalendar(2021, 2, 10, 10, 00), new GregorianCalendar(2021, 2, 17, 18, 00), 10000, 0.00, 10.00, true);
+		Locacao locacao_3= new Locacao(3, new GregorianCalendar(2021, 2, 10, 10, 00), new GregorianCalendar(2021, 2, 17, 18, 00), 10000, 0.00, 190.00, true);
+		Locacao locacao_4= new Locacao(4, new GregorianCalendar(2021, 2, 10, 10, 00), new GregorianCalendar(2021, 2, 17, 18, 00), 10000, 0.00, 20.00, true);
+		Locacao locacao_5= new Locacao(5, new GregorianCalendar(2021, 2, 10, 10, 00), new GregorianCalendar(2021, 2, 17, 18, 00), 10000, 0.00, 100.00, true);
 		List<Locacao> locacoes= new ArrayList<>();
 		locacoes.add(locacao_1);
 		locacoes.add(locacao_2);
