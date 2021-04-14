@@ -11,11 +11,11 @@ public class ProdutoController {
 	public static void main(String[] args) {
 	
 	
-		Produto produto_1 = new Produto("Arroz", 8.0, 100);		
-		Produto produto_2 = new Produto("Feijão", 10.0, 100);
-		Produto produto_3 = new Produto("Lentilha", 6.0, 100);
+		Produto produto_1 = new Produto("Arroz", "Ramo alimentício", 8.0, 100);		
+		Produto produto_2 = new Produto("Feijão", "Ramo alimentício", 10.0, 100);
+		Produto produto_3 = new Produto("Lentilha", "Ramo alimentício", 6.0, 100);
 		Produto produto_4 = new Produto("Banana");
-		Produto produto_5 = new Produto("Batata", 2.50, 60);
+		Produto produto_5 = new Produto("Batata", "Ramo alimentício", 2.50, 60);
 		
 		List<Produto> produtos = new ArrayList<>();
 		

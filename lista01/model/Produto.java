@@ -2,7 +2,8 @@ package model;
 
 public class Produto {
 	private String nome;
-	private double valor ;
+	private String descricao;
+	private double valor;
 	private int estoque;
 	
 	public Produto() {
@@ -13,9 +14,10 @@ public class Produto {
 		this.nome = nome;
 	}
 
-	public Produto(String nome, double valor, int estoque) {
+	public Produto(String nome, String descricao, double valor, int estoque) {
 		super();
 		this.nome = nome;
+		this.descricao = descricao;
 		this.valor = valor;
 		this.estoque = estoque;
 	}
@@ -26,6 +28,14 @@ public class Produto {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+	
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 	public double getValor() {
@@ -46,9 +56,9 @@ public class Produto {
 		this.estoque = estoque;
 	}
 
+	@Override
 	public String toString() {
-		return "\nProduto [nome=" + nome + ", valor=" + valor + ", estoque=" + estoque + "]";
+		return "Produto [nome=" + nome + ", descricao=" + descricao + ", valor=" + valor + ", estoque=" + estoque + "]\n";
 	}
-	
 	
 }
