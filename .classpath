@@ -8,5 +8,10 @@
 	<classpathentry kind="src" path="lista02"/>
 	<classpathentry kind="src" path="lista01"/>
 	<classpathentry kind="src" path="avaliacao"/>
+	<classpathentry kind="src" path="avaliacao2"/>
+	<classpathentry kind="src" path="herancamultipla01"/>
+	<classpathentry kind="src" path="herancamultipla02"/>
+	<classpathentry kind="src" path="herancasimples01"/>
+	<classpathentry kind="src" path="polimorfismo01"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

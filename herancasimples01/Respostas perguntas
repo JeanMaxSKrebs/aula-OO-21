@@ -1,0 +1,9 @@
+1. Foi possível criar instâncias da classe Funcionario? Justifique sua resposta.
+
+Não é possível, pois ela é abstrata, apenas é possível das classes filhas.
+
+2. Onde você deve inserir estas regras de negócio? Na classe xxController ou nas
+classes Gerente e Desenvolvedor? Justifique sua resposta.
+
+Nas models, nas classes Gerente e Desenvolvedor, pois se deve dominar o problema nessas classes e não no controllador,
+este só utiliza instâncias das classes para fazer operações.
